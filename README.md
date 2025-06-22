@@ -3,6 +3,8 @@
 ### - only supports perspective mode, I have disabled inputs while in orthogonal projection mode due to bugs
 ### - Updates will be slow, as I had no GDExtension experience prior to this project.
 
+! This fork adds libraries for linux
+
 ## Building from source 
 You need Scons, godot-cpp (GDExtension) and the HIDAPI library
 
