@@ -1,7 +1,9 @@
 # WIP Godot 4.2 port of Cyberreality's 6DOF input device support 
 ### - Bundled library is only compiled for windows, feel free to contribute libraries for other platforms.
 ### - only supports perspective mode, I have disabled inputs while in orthogonal projection mode due to bugs
-### - Updates will be slow, as I had no GDExtension experience prior to this project.
+### - Updates will be slow, as I had no GDExtension experience prior to this project.This
+
+! This fork adds libraries for linux
 
 ## Building from source 
 You need Scons, godot-cpp (GDExtension) and the HIDAPI library
