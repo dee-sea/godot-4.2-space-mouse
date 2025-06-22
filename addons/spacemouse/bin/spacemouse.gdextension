@@ -5,7 +5,9 @@ compatibility_minimum = "4.2"
 
 [libraries]
 windows.debug.x86_64 = "res://addons/spacemouse/bin/libspacemouse.windows.template_debug.x86_64.dll"
+linux.debug.x86_64 = "res://addons/spacemouse/bin/libspacemouse.linux.template_debug.x86_64.so"
+linux.release.x86_64 = "res://addons/spacemouse/bin/libspacemouse.linux.template_release.x86_64.so"
 
 [dependencies]
-hidapi = "red://addons/spacemouse/include/hidapi.dll"
-```
+#hidapi = "res://addons/spacemouse/include/hidapi.dll"
+hidapi = "res:///usr/lib/libhidapi-hidraw.so"
